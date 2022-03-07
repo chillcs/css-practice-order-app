@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 27px;
+	color: #2f463d;
+}
+
+h3 {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 14px;
+	line-height: 17px;
+	color: #2f463d;
+}
+
+h4 {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 17px;
+	color: #7a8f85;
+}
+
+p {
+	font-family: 'Ubuntu';
+	font-size: 14px;
+	line-height: 26px;
+	color: #828282;
+}
+
+a {
+	text-decoration: none;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 16px;
+	text-decoration-line: underline;
+	color: #467a66;
+}
+
+button {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 18px;
+	background-color: #46a67e;
+	color: #ffffff;
+	border: none;
+	padding: 15px 25px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.shadow-sm {
+	box-shadow: 0 5px 10px -5px #808080;
+}
+
+.shadow-lg {
+	box-shadow: 0 5px 20px -5px #505050;
+}
+
+.flex {
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#bg-img {
+	background: #fff url('assets/bg-img.png') no-repeat center;
+	background-size: cover;
+}
+
+.tab {
+	background-color: #fff;
+	width: 350px;
+	padding: 15px 25px;
+	border-radius: 5px;
+}
+
+.head {
+	display: flex;
+	justify-content: flex-end;
+	margin-right: -10px;
+	margin-bottom: 20px;
+}
+
+#close-icon {
+	cursor: pointer;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+#hero-img {
+	margin-bottom: 35px;
+}
+
+.text-box h2 {
+	margin-bottom: 10px;
+}
+
+.text-box p {
+	margin-bottom: 35px;
+}
+
+.order-box {
+	background-color: #f0fff5;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	border-radius: 5px;
+	margin-bottom: 30px;
+}
+
+#order-img {
+	background: #fff url('assets/order-img.png') no-repeat center;
+	background-size: cover;
+	width: 55px;
+	height: 65px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.order-text {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	margin-right: 25px;
+}
+
+.order-text h3 {
+	margin-bottom: 3px;
+}
+
+.order-change {
+	margin-right: 15px;
+}
+
+.cta-btn {
+	width: 100%;
+	margin-bottom: 45px;
+}
+
+.foot {
+	display: flex;
+	justify-content: center;
+}
+
+#tab-icon {
+	margin-bottom: 20px;
+}
