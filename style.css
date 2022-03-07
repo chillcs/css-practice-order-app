@@ -227,4 +227,11 @@ button {
 	#tab03 {
 		display: block;
 	}
+
+	.tab--active {
+		width: 375px;
+		min-width: 350px;
+		transform: scale(1.15);
+		z-index: 10;
+	}
 }
