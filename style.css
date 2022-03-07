@@ -8,7 +8,7 @@
 }
 
 body {
-	min-width: 325px;
+	min-width: 350px;
 	min-height: 100vh;
 }
 
@@ -70,6 +70,7 @@ button {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	padding: 0 10px;
 }
 
 #bg-img {
@@ -80,11 +81,13 @@ button {
 .tab {
 	position: relative;
 	background-color: #fff;
-	min-width: 325px;
-	max-width: 350px;
+	width: 350px;
+	min-width: 315px;
+	min-height: 595px;
 	padding: 15px 25px;
 	border-radius: 5px;
 	box-shadow: 0 5px 20px -5px #505050;
+	margin: 10px;
 }
 
 #close-icon {
@@ -102,11 +105,26 @@ button {
 	margin-top: 50px;
 }
 
-#hero-img {
+.main-img {
 	margin-bottom: 35px;
+	width: 110px;
+	height: 110px;
+}
+
+#tab01 .text-box,
+#tab03 .text-box {
+	margin-top: 15px;
+	margin-bottom: 25px;
+}
+
+#tab01 h2,
+#tab03 h2 {
+	margin-bottom: 25px;
 }
 
 .text-box h2 {
+	max-width: 200px;
+	margin: auto;
 	margin-bottom: 10px;
 }
 
@@ -149,26 +167,39 @@ button {
 	padding-right: 10px;
 }
 
-#cta-btn {
+.cta-btn {
+	position: absolute;
+	bottom: 75px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 80%;
 	font-weight: 700;
 	font-size: 15px;
 	line-height: 18px;
-	background-color: #46a67e;
+	background-color: #a8a8a8;
 	color: #ffffff;
 	padding: 15px 25px;
 	border-radius: 5px;
-	width: 100%;
 	margin-bottom: 25px;
 	box-shadow: 0 5px 10px -5px #808080;
 	transition: 0.5s ease all;
+	z-index: 5;
 }
 
-#cta-btn:hover {
+.cta-btn:hover {
 	opacity: 0.8;
 	transition: 0.5s ease all;
 }
 
+.btn-active {
+	background-color: #46a67e;
+}
+
 .dot-box {
+	position: absolute;
+	left: 50%;
+	bottom: 15px;
+	transform: translateX(-50%);
 	display: flex;
 	justify-content: space-between;
 	width: 55px;
@@ -184,4 +215,16 @@ button {
 
 .dot-green {
 	color: #67bd99;
+}
+
+#tab01,
+#tab03 {
+	display: none;
+}
+
+@media only screen and (min-width: 992px) {
+	#tab01,
+	#tab03 {
+		display: block;
+	}
 }

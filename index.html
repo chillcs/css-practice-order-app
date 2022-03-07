@@ -8,11 +8,30 @@
    <title>Order App</title>
 </head>
 <body>
+
    <div id="bg-img" class="flex">
-      <div class="tab tab--active">
+
+      <div id="tab01" class="tab">
          <img id="close-icon" src="assets/close-icon.png" alt="">
          <div class="content">
-            <img id="hero-img" src="assets/hero-img.png" alt="">
+            <img id="main-img01" class="main-img" src="assets/main-img01.png" alt="">
+            <div class="text-box">
+               <h2>Choose a dish</h2>
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis duis posuere accumsan, in ut vel iaculis fusce posuere.</p>
+            </div>
+            <button id="cta-btn01" class="cta-btn">Next</button>
+         </div>
+         <div class="dot-box">
+            <button id="dot01" class="dot-btn dot-green">•</button>
+            <button id="dot02" class="dot-btn">•</button>
+            <button id="dot03" class="dot-btn">•</button>
+         </div>
+      </div>
+
+      <div id="tab02" class="tab tab--active">
+         <img id="close-icon" src="assets/close-icon.png" alt="">
+         <div class="content">
+            <img id="main-img02" class="main-img" src="assets/main-img02.png" alt="">
             <div class="text-box">
                <h2>Confirmation</h2>
                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis duis posuere accumsan, in ut vel iaculis fusce posuere.</p>
@@ -25,7 +44,7 @@
                </div>
                <a class="order-change" href="#">Change</a>
             </div>
-            <button id="cta-btn">I'm Ready to Eat!</button>
+            <button id="cta-btn02" class="cta-btn btn-active">I'm ready to eat</button>
          </div>
          <div class="dot-box">
             <button id="dot01" class="dot-btn">•</button>
@@ -33,6 +52,24 @@
             <button id="dot03" class="dot-btn">•</button>
          </div>
       </div>
+
+      <div id="tab03" class="tab">
+         <img id="close-icon" src="assets/close-icon.png" alt="">
+         <div class="content">
+            <img id="main-img03" class="main-img" src="assets/main-img03.png" alt="">
+            <div class="text-box">
+               <h2>Your order process begins</h2>
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis duis posuere accumsan, in ut vel iaculis fusce posuere.</p>
+            </div>
+            <button id="cta-btn03" class="cta-btn">Track on the map</button>
+         </div>
+         <div class="dot-box">
+            <button id="dot01" class="dot-btn">•</button>
+            <button id="dot02" class="dot-btn">•</button>
+            <button id="dot03" class="dot-btn dot-green">•</button>
+         </div>
+      </div>
+
    </div>
 </body>
 </html>
